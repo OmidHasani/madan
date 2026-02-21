@@ -1,0 +1,1142 @@
+{
+  "source_pdf": "D:\\madan\\shopmanual.pdf",
+  "output_dir": "D:\\madan\\static\\extracted_images",
+  "pages": {
+    "27": [
+      {
+        "file": "p0027_img00.png",
+        "url": "/static/extracted_images/p0027_img00.png",
+        "page": 27,
+        "xref": 489,
+        "caption": "PC800, 800LC-8\n13",
+        "context": "00 Index and foreword\nUEN00376-00\nPC800, 800LC-8\n13",
+        "codes": [
+          "PC800",
+          "UEN00376"
+        ]
+      }
+    ],
+    "61": [
+      {
+        "file": "p0061_img00.png",
+        "url": "/static/extracted_images/p0061_img00.png",
+        "page": 61,
+        "xref": 600,
+        "caption": "PC800, 800LC-8\n13",
+        "context": "a\nFor details of the notes (Note 1, Note 2, ---) in the table, see the Operation and Maintenance Manual.\nPC800, 800LC-8\n13",
+        "codes": [
+          "PC800",
+          "UEN00378"
+        ]
+      }
+    ],
+    "287": [
+      {
+        "file": "p0287_img00.png",
+        "url": "/static/extracted_images/p0287_img00.png",
+        "page": 287,
+        "xref": 1355,
+        "caption": "3.\nInstall nipple [1] of boost gauge kit A and con-\nnect gauge [2].",
+        "context": "2.\nRemove intake air pressure pickup plug (1).\n3.\nInstall nipple [1] of boost gauge kit A and con-\nnect gauge [2].",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      },
+      {
+        "file": "p0287_img01.png",
+        "url": "/static/extracted_images/p0287_img01.png",
+        "page": 287,
+        "xref": 1357,
+        "caption": "PC800, 800LC-8\n5",
+        "context": "3.\nInstall nipple [1] of boost gauge kit A and con-\nnect gauge [2].\nPC800, 800LC-8\n5",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      },
+      {
+        "file": "p0287_img02.png",
+        "url": "/static/extracted_images/p0287_img02.png",
+        "page": 287,
+        "xref": 1359,
+        "caption": "7.\nAfter completing the measurement, remove the\nmeasuring equipment and set to the original\ncondition.",
+        "context": "6.\nRun the engine at high idle and measure the air\nsupply pressure (boost pressure) when the\nboom RAISE circuit is relieved.\n7.\nAfter completing the measurement, remove the\nmeasuring equipment and set to the original\ncondition.",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      }
+    ],
+    "288": [
+      {
+        "file": "p0288_img00.png",
+        "url": "/static/extracted_images/p0288_img00.png",
+        "page": 288,
+        "xref": 1364,
+        "caption": "6.\nAfter completing the measurement, remove the\nmeasuring equipment and set to the original\ncondition.",
+        "context": "2.\nRemove exhaust temperature pickup plug (2).\na\nYou may remove either of 2 plugs.\n6\nPC800, 800LC-8",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      },
+      {
+        "file": "p0288_img01.png",
+        "url": "/static/extracted_images/p0288_img01.png",
+        "page": 288,
+        "xref": 1366,
+        "caption": "4.\nProcedure for measuring maximum exhaust\ntemperature for troubleshooting\nOperate the machine actually and measure the\nmaximum exhaust temperature.\na\nSet the digital thermometer in the PEAK\nmode.",
+        "context": "3.\nInstall sensor [1] of digital thermometer B and\nconnect them to meter [2].\na\nClamp the wiring harness of the digital tem-\nperature gauge so that it does not touch any\nhigh temperature part during the measure-\nment.\n4.\nProcedure for measuring maximum exhaust\ntemperature for troubleshooting\nOperate the machine actually and measure the\nmaximum exhaust temperature.\na\nSet the digital thermometer in the PEAK\nmode.",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      },
+      {
+        "file": "p0288_img02.png",
+        "url": "/static/extracted_images/p0288_img02.png",
+        "page": 288,
+        "xref": 1368,
+        "caption": "6.\nAfter completing the measurement, remove the\nmeasuring equipment and set to the original\ncondition.",
+        "context": "5.\nProcedure for measuring exhaust temperature\nperiodically for preventive maintenance (Pm\nClinic), etc.\n1)\nSet the working mode switch in the P-mode\nposition and turn the heavy lift switch ON.\n2)\nRun the engine at high idle, relieve the\nboom circuit by raising the boom, and meas-\nure the exhaust temperature.\na\nMeasure the exhaust temperature after\nit is stabilized.\n6.\nAfter completing the measurement, remove the\nmeasuring equipment and set to the original\ncondition.",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      }
+    ],
+    "289": [
+      {
+        "file": "p0289_img00.png",
+        "url": "/static/extracted_images/p0289_img00.png",
+        "page": 289,
+        "xref": 1373,
+        "caption": "2)\nConnect the prove hose, the receptacle of\nthe accelerator switch and the air hose to\nthe smoke meter C2.\na\nThe supply air pressure shall be less\nthan 1.5 MPa {15 kg/cm2}\n3)\nConnect the power cord to an AC100V\nreceptacle.\na\nBefore connect...",
+        "context": "30 Testing and adjusting\nUEN00786-00\n2)\nConnect the prove hose, the receptacle of\nthe accelerator switch and the air hose to\nthe smoke meter C2.\na\nThe supply air pressure shall be less\nthan 1.5 MPa {15 kg/cm2}\n3)\nConnect the power cord to an AC100V\nreceptacle.\na\nBefore connecting the power cord, make\nsure that the power switch of the smoke\nmeter is turned off.\n4)\nLoosen the cap nut of the suction pump and\nset a filter paper there.\na\nSet the filter paper accurately so that ex-\nhaust gas does not leak out.\n5)\nTurn on the power switch of the smoke\nmeter C2.",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      },
+      {
+        "file": "p0289_img01.png",
+        "url": "/static/extracted_images/p0289_img01.png",
+        "page": 289,
+        "xref": 1375,
+        "caption": "5)\nRemove the filter paper and compare the\ncolor on the filter paper with the accessory\nscale.\n6)\nAfter the measurement, remove the meas-\nuring instrument and return the engine to\nthe original state.",
+        "context": "1.\nMeasurement with C1, Handy Smoke Checker\n1)\nSet a filter paper in the handy smoke\nchecker C1.\n2)\nInsert the exhaust gas suction port in the\nexhaust pipe (1).\n3)\nStart the engine.\n4)\nOperate the handle of the smoke checker\nC1, and adhere exhaust gas to the filter\npaper when accelerating the engine quickly\nor at a high idle.\n5)\nRemove the filter paper and compare the\ncolor on the filter paper with the accessory\nscale.\n6)\nAfter the measurement, remove the meas-\nuring instrument and return the engine to\nthe original state.",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      }
+    ],
+    "290": [
+      {
+        "file": "p0290_img00.png",
+        "url": "/static/extracted_images/p0290_img00.png",
+        "page": 290,
+        "xref": 1379,
+        "caption": "3.\nRotate the crankshaft in the normal direction to\nalign [1.6 TOP] line (a) on the damper with\npointer (2), and set the No.1 cylinder compres-\nsion to top dead center.\na\nCheck the pointer from the alternator side.\na\nCrank the engine with t...",
+        "context": "2.\nRemove all cylinder head covers (1).\n3.\nRotate the crankshaft in the normal direction to\nalign [1.6 TOP] line (a) on the damper with\npointer (2), and set the No.1 cylinder compres-\nsion to top dead center.\na\nCheck the pointer from the alternator side.\na\nCrank the engine with the hexagonal part at\nthe water pump drive shaft on the alternator\nside.\na\nAt the compression top dead center, the\nrocker arm of the No. 1 cylinder can be\nmoved by hand an amount equal to the valve\nclearance. If the rocker arm does not move,\nit is not at the compression top dead center,\nso rotate the crankshaft one more...",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      }
+    ],
+    "291": [
+      {
+        "file": "p0291_img00.png",
+        "url": "/static/extracted_images/p0291_img00.png",
+        "page": 291,
+        "xref": 1383,
+        "caption": "3.\nBring the cylinder to be tested to the compres-\nsion top dead center and remove rocker arm\nassembly (2).\na\nSee “Adjusting valve clearance.”",
+        "context": "2.\nRemove head cover (1) of the cylinder to meas-\nure the compression pressure.\n3.\nBring the cylinder to be tested to the compres-\nsion top dead center and remove rocker arm\nassembly (2).\na\nSee “Adjusting valve clearance.”",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      },
+      {
+        "file": "p0291_img01.png",
+        "url": "/static/extracted_images/p0291_img01.png",
+        "page": 291,
+        "xref": 1385,
+        "caption": "5.\nInstall adapter D2 to the mounting hole on the\ninjector and the compression gauge D1.\na\nFit the gasket to the injector end without fail\na\nFix the adapter with the injector holder.\n3\nHolder mounting bolt:\n58.8 – 73.5 Nm {6.0 – 7.5 kgm}\na\n...",
+        "context": "30 Testing and adjusting\nUEN00786-00\n5.\nInstall adapter D2 to the mounting hole on the\ninjector and the compression gauge D1.\na\nFit the gasket to the injector end without fail\na\nFix the adapter with the injector holder.\n3\nHolder mounting bolt:\n58.8 – 73.5 Nm {6.0 – 7.5 kgm}\na\nApply a little amount of engine oil to the con-\nnecting parts of the adapter and gauge so\nthat air will not leak easily.",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      }
+    ],
+    "292": [
+      {
+        "file": "p0292_img00.png",
+        "url": "/static/extracted_images/p0292_img00.png",
+        "page": 292,
+        "xref": 1390,
+        "caption": "3.\nStart the engine and set the working mode\nswitch to the P-mode position.",
+        "context": "2.\nConnect nozzle [1] and gauge [2] with the hose.\n3.\nStart the engine and set the working mode\nswitch to the P-mode position.",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      },
+      {
+        "file": "p0292_img01.png",
+        "url": "/static/extracted_images/p0292_img01.png",
+        "page": 292,
+        "xref": 1392,
+        "caption": "5.\nAfter finishing measurement, remove the meas-\nuring instruments and return the removed parts.",
+        "context": "4.\nRun the engine at high idle, relieve the arm cir-\ncuit by moving the arm IN, and measure the\nbrake oil pressure.\n5.\nAfter finishing measurement, remove the meas-\nuring instruments and return the removed parts.",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      }
+    ],
+    "293": [
+      {
+        "file": "p0293_img00.png",
+        "url": "/static/extracted_images/p0293_img00.png",
+        "page": 293,
+        "xref": 1397,
+        "caption": "3.\nInstall nipple [1] of hydraulic tester G1 and con-\nnect them to hydraulic tester G2.",
+        "context": "2.\nRemove plug (1) (R1/8) from the oil filter head.\n3.\nInstall nipple [1] of hydraulic tester G1 and con-\nnect them to hydraulic tester G2.",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      },
+      {
+        "file": "p0293_img01.png",
+        "url": "/static/extracted_images/p0293_img01.png",
+        "page": 293,
+        "xref": 1398,
+        "caption": "5.\nAfter completing the measurement, remove the\nmeasuring equipment and set to the original\ncondition.\n3\nOil pressure switch:\n2.9 – 5.9 Nm {0.3 – 0.6 kgm}",
+        "context": "4.\nStart the engine and measure the oil pressure\nwith the engine at low idle and high idle.\n5.\nAfter completing the measurement, remove the\nmeasuring equipment and set to the original\ncondition.\n3\nOil pressure switch:\n2.9 – 5.9 Nm {0.3 – 0.6 kgm}",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      }
+    ],
+    "295": [
+      {
+        "file": "p0295_img00.png",
+        "url": "/static/extracted_images/p0295_img00.png",
+        "page": 295,
+        "xref": 1406,
+        "caption": "3.\nAttach the nipple [1] of the adapter H3 and\nhydraulic tester H1, and connect the hydraulic\ntester H2.",
+        "context": "2.\nRemove the fuel pressure measurement plug\n(1).\n3.\nAttach the nipple [1] of the adapter H3 and\nhydraulic tester H1, and connect the hydraulic\ntester H2.",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      },
+      {
+        "file": "p0295_img01.png",
+        "url": "/static/extracted_images/p0295_img01.png",
+        "page": 295,
+        "xref": 1407,
+        "caption": "5.\nAfter the measurement, return the circuit to the\noriginal state.",
+        "context": "4.\nStart the engine and measure fuel pressure at\nthe time of high idle.\na\nIf the fuel pressure is in the following range,\nit is normal.\nFuel pressure: 0.15 – 0.3 MPa {1.5 – 3 kg/cm2}\n(High idle)\n5.\nAfter the measurement, return the circuit to the\noriginal state.",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      }
+    ],
+    "296": [
+      {
+        "file": "p0296_img00.png",
+        "url": "/static/extracted_images/p0296_img00.png",
+        "page": 296,
+        "xref": 1412,
+        "caption": "3)\nInsert joint J2 on common rail (1) side and\ntighten the removed joint bolt again.\na\nBe sure to fit the gaskets to both ends of\nthe joint.",
+        "context": "1.\nPreparation work\n1)\nRemove tube (3) between common rail (1)\nand supply pump (2).\n2)\nInsert spacer J1 on supply pump (2) side\nand tighten the removed joint bolt again.\na\nConnect the return pipe to the fuel tank\nagain, too.\na\nBe sure to fit the gaskets to both ends of\nthe spacer.\n3)\nInsert joint J2 on common rail (1) side and\ntighten the removed joint bolt again.\na\nBe sure to fit the gaskets to both ends of\nthe joint.",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      }
+    ],
+    "297": [
+      {
+        "file": "p0297_img00.png",
+        "url": "/static/extracted_images/p0297_img00.png",
+        "page": 297,
+        "xref": 1417,
+        "caption": "a\nBind the connecting part of the test hose\nwith a wire, etc. to prevent it from coming off.\n2)\nLay test hose H4 so that it will not slacken\nand put its end in the oil pan.",
+        "context": "3.\nTesting return rate from injector\na\nKeep the hose on the pressure limiter side\nconnected and keep its end in the oil pan\nwhile testing the return rate from the injector.\n1)\nInstall joint J3 and connect return hose (6)\nfor the fuel tank to test hose J5.\na\nBind the connecting part of the test hose\nwith a wire, etc. to prevent it from coming off.\n2)\nLay test hose H4 so that it will not slacken\nand put its end in the oil pan.",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      }
+    ],
+    "298": [
+      {
+        "file": "p0298_img00.png",
+        "url": "/static/extracted_images/p0298_img00.png",
+        "page": 298,
+        "xref": 1422,
+        "caption": "6)\nAfter finishing testing, stop the engine.",
+        "context": "1.\nRemove fuel prefilter (1) and fill it with fuel.\na\nFill the fuel prefilter with clean fuel and take\ncare that dirt will not enter it.\na\nCheck that the cap is fitted to part (a) (central\nhole) of the fuel prefilter, and then add fuel\nthrough part (b) (holes around the central\nhole).\na\nAfter filling the fuel prefilter with fuel, remove\nthe cap from part (a).\na\nIf clean fuel is not available, do not remove\nthe prefilter but fill it with the fuel by operating\npriming pump (4).\na\nDo not add fuel to fuel main filter (2) from out-\nside.\n2.\nInstall fuel prefilter (1) to the filter head.\na\nApply eng...",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      }
+    ],
+    "300": [
+      {
+        "file": "p0300_img00.png",
+        "url": "/static/extracted_images/p0300_img00.png",
+        "page": 300,
+        "xref": 1430,
+        "caption": "Adjusting\na\nIf the deflection is abnormal, adjust it according\nto the following procedure.",
+        "context": "3.\nTighten nuts and bolts in the order of (3), (2),\nand (1).\na\nIf the belts were replaced, adjust their ten-\nsion again after operating the machine for 1\nhour.\n18\nPC800, 800LC-8",
+        "codes": [
+          "PC800",
+          "UEN00786"
+        ]
+      }
+    ],
+    "305": [
+      {
+        "file": "p0305_img00.png",
+        "url": "/static/extracted_images/p0305_img00.png",
+        "page": 305,
+        "xref": 1453,
+        "caption": "PC800, 800LC-8\n3",
+        "context": "2.\nWhen the tension is too weak\nAdd grease through grease fitting (4).\na\nIf the normal track shoe tension is not re-\nstored even after greasing, move the ma-\nchine slowly back and forth.\nPC800, 800LC-8\n3",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      }
+    ],
+    "306": [
+      {
+        "file": "p0306_img00.png",
+        "url": "/static/extracted_images/p0306_img00.png",
+        "page": 306,
+        "xref": 1458,
+        "caption": "4\nPC800, 800LC-8",
+        "context": "k Lower the work equipment to the ground\nand stop the engine. Operate the control le-\nvers several times to release the residual\npressure in the piping, and then loosen the\noil filler cap of the hydraulic tank slowly to\nrelease the internal pressure of the hydrau-\nlic tank.\n1)\nOpen the pump compartment cover.\n2)\nConnect oil pressure gauges [1] of hydraulic\ntester K to quick couplers (1) – (2) installed\nto the outlet of each pump of the circuit to be\nmeasured.\na\n(1): Front pump side, (2): Rear pump side\na\nThe relief pressure of the boom LOWER\ncircuit can be measured only in the front\npump circu...",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      }
+    ],
+    "307": [
+      {
+        "file": "p0307_img00.png",
+        "url": "/static/extracted_images/p0307_img00.png",
+        "page": 307,
+        "xref": 3310,
+        "caption": "PC800, 800LC-8\n5",
+        "context": "2.\nMeasuring work equipment circuit oil pressure\n1)\nMeasuring normal relief pressure\ni)\nStart the engine and set the working\nmode switch to the P-mode position.\nii)\nRun the engine at high idle, relieve each\ncylinder singly at the stroke end, and\nmeasure the oil pressure.\na\nThe main relief valves of the right and\nleft control valves relieve on the low-\npressure setting side.\na\nIf the boom cylinder is relieved at the\nLOWER stroke end, the safety-suction\nvalve on the boom head side of the right\n4-spool control valve relieves on the low-\npressure setting side (The set pressure\nof the safety-suctio...",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      }
+    ],
+    "308": [
+      {
+        "file": "p0308_img00.png",
+        "url": "/static/extracted_images/p0308_img00.png",
+        "page": 308,
+        "xref": 3310,
+        "caption": "6\nPC800, 800LC-8",
+        "context": "2)\nRun the engine at high idle, relieve the\ntravel motor, and measure the oil pressure.\na\nThe main relief valves of the right and left\ncontrol valves relieve on the high-pressure\nsetting side.\n6\nPC800, 800LC-8",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      },
+      {
+        "file": "p0308_img01.png",
+        "url": "/static/extracted_images/p0308_img01.png",
+        "page": 308,
+        "xref": 1466,
+        "caption": "a\nThe high pressure setting is the state in\nwhich the 2-stage relief solenoid valve is\nturned ON and the pilot pressure is applied\nto the changeover port.\n1)\nDisconnect hose (6).\n2)\nLoosen locknut (7) and set elbow (8) free.\n3)\nFix holder (...",
+        "context": "1.\nAdjusting main relief valve (high-pressure\nsetting) of left 5-spool control valve\na\nIf the work equipment oil pressure in the front\npump circuit (during heavy lift operation) and\nthe left travel oil pressure are abnormal, ad-\njust the high-pressure setting side of main\nrelief valve (5) of the left 5-spool control\nvalve according to the following procedure.\na\nThe high pressure setting is the state in\nwhich the 2-stage relief solenoid valve is\nturned ON and the pilot pressure is applied\nto the changeover port.\n1)\nDisconnect hose (6).\n2)\nLoosen locknut (7) and set elbow (8) free.\n3)\nFix holder...",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      }
+    ],
+    "310": [
+      {
+        "file": "p0310_img00.png",
+        "url": "/static/extracted_images/p0310_img00.png",
+        "page": 310,
+        "xref": 1474,
+        "caption": "1)\nFix adjustment nut (16) and loosen locknut\n(17).",
+        "context": "•\n(15): Safety valve of rear swing motor\n1)\nFix adjustment nut (16) and loosen locknut\n(17).",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      },
+      {
+        "file": "p0310_img01.png",
+        "url": "/static/extracted_images/p0310_img01.png",
+        "page": 310,
+        "xref": 1476,
+        "caption": "a\nAdjust the right 4-spool control valve similar-\nly to the left 5-spool control valve.",
+        "context": "3.\nAdjusting main relief valve (high-pressure\nsetting) of right 4-spool control valve\na\nIf the work equipment oil pressure in the rear\npump circuit (during heavy lift operation) and\nthe right travel oil pressure are abnormal, ad-\njust the high-pressure setting side of main\nrelief valve (13) of the right 4-spool control\nvalve according to the following procedure.\na\nAdjust the right 4-spool control valve similar-\nly to the left 5-spool control valve.",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      },
+      {
+        "file": "p0310_img02.png",
+        "url": "/static/extracted_images/p0310_img02.png",
+        "page": 310,
+        "xref": 1478,
+        "caption": "8\nPC800, 800LC-8",
+        "context": "5.\nAdjusting swing motor safety valve\na\nIf the relief pressure of the swing motor is ab-\nnormal, adjust safety valves (14) and (15) of\nthe swing motor according to the following\nprocedure.\n•\n(14): Safety valve of front swing motor\n8\nPC800, 800LC-8",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      }
+    ],
+    "311": [
+      {
+        "file": "p0311_img00.png",
+        "url": "/static/extracted_images/p0311_img00.png",
+        "page": 311,
+        "xref": 3310,
+        "caption": "Adjusting\na\nSelf pressure reducing valve cannot be adjusted.",
+        "context": "3.\nRun the engine at high idle, set the work equip-\nment/swing lever and travel lever in neutral, and\nmeasure the oil pressure.\nAdjusting\na\nSelf pressure reducing valve cannot be adjusted.",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      }
+    ],
+    "312": [
+      {
+        "file": "p0312_img00.png",
+        "url": "/static/extracted_images/p0312_img00.png",
+        "page": 312,
+        "xref": 3310,
+        "caption": "10\nPC800, 800LC-8",
+        "context": "4)\nStart the engine and set the working mode\nswitch in the P-mode position.\n5)\nSet all the control levers in neutral and\nmeasure the EPC valve output pressure\nunder the following condition.\ni)\nSet all the control levers in neutral.\nii)\nRun the engine at high idle and measure\nthe output pressure.\n6)\nDrive the travel motor idle and measure the\nEPC valve output pressure under the follow-\ning condition.\ni)\nRaise the track shoe to be measured by\nusing the boom and arm\nii)\nRun the engine at high idle, drive the\ntravel motor idle and measure the output\npressure.\n10\nPC800, 800LC-8",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      }
+    ],
+    "313": [
+      {
+        "file": "p0313_img00.png",
+        "url": "/static/extracted_images/p0313_img00.png",
+        "page": 313,
+        "xref": 3310,
+        "caption": "8)\nAfter finishing measurement, remove the\nmeasuring instruments and return the\nremoved parts.",
+        "context": "4)\nStart the engine and set the working mode\nswitch in the P-mode position.\n5)\nSet all the control levers in neutral and\nmeasure the VC valve output pressure\nunder the following condition.\ni)\nSet all the control levers in neutral.\nii)\nRun the engine at high idle and measure\nthe output pressure.\n6)\nRelieve the boom circuit by raising the boom\n(normally), and measure the VC valve out-\nput pressure under the following condition.\ni)\nTurn the heavy lift switch OFF.\nii)\nRun the engine at high idle, relieve the\nboom circuit by raising the boom, and\nmeasure the output pressure.\n7)\nTurn the heavy lift ...",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      }
+    ],
+    "314": [
+      {
+        "file": "p0314_img00.png",
+        "url": "/static/extracted_images/p0314_img00.png",
+        "page": 314,
+        "xref": 1492,
+        "caption": "2)\nInstall measuring hose [2] of hydraulic tester\nM1 and connect it to differential pressure\ngauge M2 or oil pressure gauge [1].\na\nWhen using differential pressure gauge:\nConnect the high pressure (5) or (7) to\nthe high pressure side (back ...",
+        "context": "1)\nRemove clamping bolts (3) and (4) of the\ndifferential pressure sensor wiring harness\nand remove oil pressure pickup plugs (5)\nand (6) under the left 5-spool control valve\nand oil pressure pickup plugs (7) and (8)\nunder the right 4-spool control valve.\n•\n(5): High pressure side (NCAI) of left 5-\nspool control valve (F pump)\n•\n(6): Low pressure side (NCBI) of left 5-\nspool control valve (F pump)\n•\n(7): High pressure side (NCA) of right 4-\nspool control valve (R pump)\n•\n(6): Low pressure side (NCB) of right 4-\nspool control valve (R pump)\n2)\nInstall measuring hose [2] of hydraulic tester\nM1 an...",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      }
+    ],
+    "315": [
+      {
+        "file": "p0315_img00.png",
+        "url": "/static/extracted_images/p0315_img00.png",
+        "page": 315,
+        "xref": 3310,
+        "caption": "PC800, 800LC-8\n13",
+        "context": "3)\nStart the engine and set the working mode\nswitch in the P-mode position.\n4)\nSet all the control levers in neutral and\nmeasure the jet sensor output differential\npressure under the following condition.\ni)\nSet all the control levers in neutral.\nii)\nRun the engine at high idle and measure\nthe output differential pressure.\na\nJet sensor output differential pressure =\nHigh pressure (NCA) – Low pressure (NCB)\n5)\nDrive the travel motor idle and measure the\njet sensor output differential pressure under\nthe following condition.\ni)\nRaise the track shoe to be measured by\nusing the boom and arm.\nii)\nRun...",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      }
+    ],
+    "316": [
+      {
+        "file": "p0316_img00.png",
+        "url": "/static/extracted_images/p0316_img00.png",
+        "page": 316,
+        "xref": 1500,
+        "caption": "1)\nFix adjustment screw (21) and loosen lock-\nnut (22).\n2)\nTurn adjustment screw (21) to adjust the\npressure.\na\nIf the adjustment screw is\n•\nturned to the right, the pressure ris-\nes.\n•\nturned to the left, the pressure low-\ners.\na\nPressure ...",
+        "context": "Adjusting\n1.\nAdjusting jet sensors of left 5-spool control\nvalve and right 4-spool control valve\na\nIf the jet sensor output differential pressure\nof the left 5-spool control valve or right 4-\nspool control valve is abnormal, adjust jet\nsensor relief valves (19) and (20) according\nto the following procedure.\n•\n(19): Jet sensor relief valve of left 5-spool\ncontrol valve\n•\n(20): Jet sensor relief valve of right 4-spool\ncontrol valve\n1)\nFix adjustment screw (21) and loosen lock-\nnut (22).\n2)\nTurn adjustment screw (21) to adjust the\npressure.\na\nIf the adjustment screw is\n•\nturned to the right, the ...",
+        "codes": [
+          "PC800",
+          "UEN00788"
+        ]
+      }
+    ],
+    "320": [
+      {
+        "file": "p0320_img00.png",
+        "url": "/static/extracted_images/p0320_img00.png",
+        "page": 320,
+        "xref": 1528,
+        "caption": "2\nPC800, 800LC-8",
+        "context": "2.\nDisconnect hose (1) of the PPC circuit to be\nmeasured. Install adapter P2 and connect the\nhose again.\na\nFor the hose to be disconnected, see the\nconnection diagram on the next page.\n2\nPC800, 800LC-8",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      },
+      {
+        "file": "p0320_img01.png",
+        "url": "/static/extracted_images/p0320_img01.png",
+        "page": 320,
+        "xref": 1530,
+        "caption": "4.\nRun the engine at high idle, operate the control\nlever of the PPC circuit to be measured, and\nmeasure the oil pressure.\na\nMove the control lever to the stroke end.\na\nCondition of actuator to be measured\n•\nWhen measuring the pressure for ...",
+        "context": "3.\nInstall nipple [1] of hydraulic tester P1 and con-\nnect it to oil pressure gauge [2].\na\nUse a pressure gauge of 5.9 MPa {60 kg/cm2}\na\nThe figure shows the measuring instruments\ninstalled to the right travel (reverse) circuit of\nthe left 5-spool control valve.\n4.\nRun the engine at high idle, operate the control\nlever of the PPC circuit to be measured, and\nmeasure the oil pressure.\na\nMove the control lever to the stroke end.\na\nCondition of actuator to be measured\n•\nWhen measuring the pressure for the\nwork equipment, move each cylinder to\nthe stroke end.\n•\nWhen measuring the pressure for swing...",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      },
+      {
+        "file": "p0320_img02.png",
+        "url": "/static/extracted_images/p0320_img02.png",
+        "page": 320,
+        "xref": 1531,
+        "caption": "2\nPC800, 800LC-8",
+        "context": "4.\nRun the engine at high idle, operate the control\nlever of the PPC circuit to be measured, and\nmeasure the oil pressure.\na\nMove the control lever to the stroke end.\na\nCondition of actuator to be measured\n•\nWhen measuring the pressure for the\nwork equipment, move each cylinder to\nthe stroke end.\n•\nWhen measuring the pressure for swing,\nturn the swing lock switch ON.\n•\nWhen measuring the pressure for travel,\nput pin [3] between the sprocket and\ntrack frame to lock the track shoe.\n2\nPC800, 800LC-8",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      }
+    ],
+    "324": [
+      {
+        "file": "p0324_img00.png",
+        "url": "/static/extracted_images/p0324_img00.png",
+        "page": 324,
+        "xref": 1545,
+        "caption": "6\nPC800, 800LC-8",
+        "context": "1.\nMeasuring outlet pressure of solenoid valve\n1)\nDisconnect outlet hoses (1) – (8) of the sole-\nnoid valves to be measured. Install adapter\nQ2 and connect the hoses again.\na\nWhen measuring the PPC lock solenoid\nvalve, remove the operator's cab under-\ncover (the 2nd piece on the front side).\na\nIf the solenoid valve side of a hose is\nconnected by a quick coupler, discon-\nnect the other end of the hose (See the\nconnection diagram in “Measuring PPC\nvalve output pressure”).\n•\n(1): PPC lock solenoid valve\n6\nPC800, 800LC-8",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      },
+      {
+        "file": "p0324_img01.png",
+        "url": "/static/extracted_images/p0324_img01.png",
+        "page": 324,
+        "xref": 1547,
+        "caption": "2)\nInstall the nipple (R1/8) of hydraulic tester\nQ1 or nipple Q4 (10 × 1.25 mm) and con-\nnect it to oil pressure gauge [1].\na\nUse a pressure gauge of 5.9 MPa {60\nkg/cm2}\na\nThe following figure shows the measur-\ning devices installed to the ...",
+        "context": "•\n(8): Swing priority solenoid valve\n2)\nInstall the nipple (R1/8) of hydraulic tester\nQ1 or nipple Q4 (10 × 1.25 mm) and con-\nnect it to oil pressure gauge [1].\na\nUse a pressure gauge of 5.9 MPa {60\nkg/cm2}\na\nThe following figure shows the measur-\ning devices installed to the outlet hose of\nthe PPC lock solenoid valve.",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      }
+    ],
+    "325": [
+      {
+        "file": "p0325_img00.png",
+        "url": "/static/extracted_images/p0325_img00.png",
+        "page": 325,
+        "xref": 3310,
+        "caption": "4)\nAfter finishing measurement, remove the\nmeasuring instruments and return the\nremoved parts.",
+        "context": "3)\nRun the engine at high idle, set the condition\nor operate the control levers as shown in the\ntable, and measure the output pressure.\na\nWhen operating the work equipment-\nswing or travel control lever, operate it\nfinely to a degree that the PPC oil pres-\nsure switch is turned ON.\na\nIf the solenoid valve outlet pressure is as\nshown in the table, the solenoid valve is\nnormal.\n4)\nAfter finishing measurement, remove the\nmeasuring instruments and return the\nremoved parts.",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      }
+    ],
+    "327": [
+      {
+        "file": "p0327_img00.png",
+        "url": "/static/extracted_images/p0327_img00.png",
+        "page": 327,
+        "xref": 3310,
+        "caption": "4)\nAfter finishing measurement, remove the\nmeasuring instruments and return the\nremoved parts.",
+        "context": "Position for\nswinging to right\nMin. 2.35\n{Min. 24}\n4)\nAfter finishing measurement, remove the\nmeasuring instruments and return the\nremoved parts.",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      }
+    ],
+    "328": [
+      {
+        "file": "p0328_img00.png",
+        "url": "/static/extracted_images/p0328_img00.png",
+        "page": 328,
+        "xref": 3310,
+        "caption": "4)\nAfter finishing measurement, remove the\nmeasuring instruments and return the\nremoved parts.",
+        "context": "Position for\nswinging to right\nSame as main\npump pressure\n4)\nAfter finishing measurement, remove the\nmeasuring instruments and return the\nremoved parts.",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      }
+    ],
+    "332": [
+      {
+        "file": "p0332_img00.png",
+        "url": "/static/extracted_images/p0332_img00.png",
+        "page": 332,
+        "xref": 1573,
+        "caption": "6.\nAfter finishing measurement, remove the meas-\nuring instruments and return the removed parts.",
+        "context": "5.\nRun the engine at low idle and high idle and\nmeasure the fan speed.\na\nIf the fan is rotated in reverse, the measuring\ninstruments can be sucked in. Accordingly, be\nsure to rotate the fan forward when measuring.\n6.\nAfter finishing measurement, remove the meas-\nuring instruments and return the removed parts.",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      },
+      {
+        "file": "p0332_img01.png",
+        "url": "/static/extracted_images/p0332_img01.png",
+        "page": 332,
+        "xref": 1575,
+        "caption": "2.\nWhile running the engine at high idle, measure\nthe fan circuit oil pressure.",
+        "context": "1.\nConnect gauge [1] of hydraulic tester S to oil\npressure pickup nipple (1) of the fan pump.\na\nUse the gauge of 39.2 MPa {400 kg/cm2}.\n2.\nWhile running the engine at high idle, measure\nthe fan circuit oil pressure.",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      },
+      {
+        "file": "p0332_img02.png",
+        "url": "/static/extracted_images/p0332_img02.png",
+        "page": 332,
+        "xref": 3310,
+        "caption": "3.\nAfter finishing measurement, remove the meas-\nuring instruments and return the removed parts.",
+        "context": "2.\nWhile running the engine at high idle, measure\nthe fan circuit oil pressure.\n3.\nAfter finishing measurement, remove the meas-\nuring instruments and return the removed parts.",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      }
+    ],
+    "334": [
+      {
+        "file": "p0334_img00.png",
+        "url": "/static/extracted_images/p0334_img00.png",
+        "page": 334,
+        "xref": 1583,
+        "caption": "3)\nRun the engine at high idle and relieve the\nboom cylinder by operating the boom con-\ntrol lever in the RAISE direction.",
+        "context": "k Take care not to disconnect the hose on\nthe cylinder bottom side.\na\nUse the following part to block the hose.\n07379-01260 (Flange #12)\n3)\nRun the engine at high idle and relieve the\nboom cylinder by operating the boom con-\ntrol lever in the RAISE direction.",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      },
+      {
+        "file": "p0334_img01.png",
+        "url": "/static/extracted_images/p0334_img01.png",
+        "page": 334,
+        "xref": 1585,
+        "caption": "3)\nRun the engine at high idle and relieve the\narm cylinder by operating the arm control\nlever in the IN direction.",
+        "context": "k Take care not to disconnect the hose on\nthe cylinder bottom side.\na\nUse the following part to block the hose.\n07379-01470 (Flange #14)\n3)\nRun the engine at high idle and relieve the\narm cylinder by operating the arm control\nlever in the IN direction.",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      }
+    ],
+    "335": [
+      {
+        "file": "p0335_img00.png",
+        "url": "/static/extracted_images/p0335_img00.png",
+        "page": 335,
+        "xref": 1590,
+        "caption": "3)\nRun the engine at high idle and relieve the\nbucket cylinder by operating the bucket con-\ntrol lever in the CURL direction.",
+        "context": "k Take care not to disconnect the hose on\nthe cylinder bottom side.\na\nUse the following part to block the hose.\n07379-01470 (Flange #14)\n3)\nRun the engine at high idle and relieve the\nbucket cylinder by operating the bucket con-\ntrol lever in the CURL direction.",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      },
+      {
+        "file": "p0335_img01.png",
+        "url": "/static/extracted_images/p0335_img01.png",
+        "page": 335,
+        "xref": 1592,
+        "caption": "•\n(5): Drain hose of rear swing motor",
+        "context": "4.\nMeasuring leakage from swing motor\n1)\nDisconnect drain hoses (4) and (5) and plug\nthem.\na\nUse the following parts to block the hos-\nes.\n07376-70522 (Plug #05)\n•\n(4): Drain hose of front swing motor\n•\n(5): Drain hose of rear swing motor",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      },
+      {
+        "file": "p0335_img02.png",
+        "url": "/static/extracted_images/p0335_img02.png",
+        "page": 335,
+        "xref": 1594,
+        "caption": "2)\nTurn the swing lock switch ON.\n3)\nRun the engine at high idle and relieve the\nswing circuit and measure the oil leakage.\na\nStart measuring the oil leakage 30 sec-\nonds after the swing motor circuit is re-\nlieved and measure for 1 minute....",
+        "context": "•\n(5): Drain hose of rear swing motor\n2)\nTurn the swing lock switch ON.\n3)\nRun the engine at high idle and relieve the\nswing circuit and measure the oil leakage.\na\nStart measuring the oil leakage 30 sec-\nonds after the swing motor circuit is re-\nlieved and measure for 1 minute.\na\nAfter measuring 1 time, swing the upper\nstructure 180° and measure again.\n4)\nAfter finishing measurement, return the\nparts.",
+        "codes": [
+          "PC800",
+          "UEN00912"
+        ]
+      }
+    ],
+    "380": [
+      {
+        "file": "p0380_img00.png",
+        "url": "/static/extracted_images/p0380_img00.png",
+        "page": 380,
+        "xref": 1739,
+        "caption": "3)\nDisconnect the inspecting connector 1 and\nmaintain that state for 5 seconds.\n4)\nTurn ON the starting switch and maintain\nthat state for 5 seconds.\n5)\nDisconnect the inspecting connector 2 and\nmaintain that state for 5 seconds.\n6)\nConnect...",
+        "context": "UEN00914-00\n30 Testing and adjusting\n3)\nDisconnect the inspecting connector 1 and\nmaintain that state for 5 seconds.\n4)\nTurn ON the starting switch and maintain\nthat state for 5 seconds.\n5)\nDisconnect the inspecting connector 2 and\nmaintain that state for 5 seconds.\n6)\nConnect the inspecting connector 1 again\nand maintain that state for 5 seconds.\n7)\nConnect the inspecting connector 2 again\nand maintain that state for 5 seconds.\n8)\nMake sure that the KOMTRAX terminal 7-\nsegment indicator lamps are normally\nturned on.\na\nAfter step 7), if display is normal, the 7-\nsegment indicator lamp displays...",
+        "codes": [
+          "G02",
+          "G03",
+          "G04",
+          "G05",
+          "PC800",
+          "UEN00914"
+        ]
+      }
+    ],
+    "386": [
+      {
+        "file": "p0386_img00.png",
+        "url": "/static/extracted_images/p0386_img00.png",
+        "page": 386,
+        "xref": 1762,
+        "caption": "2)\nRemove the 3 mounting screws and discon-\nnect machine monitor (2) from the mount.\na\nTake care not to drop the mounting\nscrews in the console.\n3)\nInsert or connect T-adapters for trouble-\nshooting to connectors CM01, CM02, and\nCM03 of the...",
+        "context": "1.\nMachine monitor\n1)\nRemove cover (1).\na\nThe cover is secured with 2 clips at the\ntop and bottom. Those clips can be re-\nmoved by pulling them up.\na\nIf a sunlight sensor for the air conditioner\nis installed, disconnect connector P31\non the backside of the cover.\n2)\nRemove the 3 mounting screws and discon-\nnect machine monitor (2) from the mount.\na\nTake care not to drop the mounting\nscrews in the console.\n3)\nInsert or connect T-adapters for trouble-\nshooting to connectors CM01, CM02, and\nCM03 of the machine monitor.",
+        "codes": [
+          "CE02",
+          "CE03",
+          "CM01",
+          "CM02",
+          "CM03",
+          "P31",
+          "PC800",
+          "UEN00914"
+        ]
+      },
+      {
+        "file": "p0386_img01.png",
+        "url": "/static/extracted_images/p0386_img01.png",
+        "page": 386,
+        "xref": 1767,
+        "caption": "8\nPC800, 800LC-8",
+        "context": "2)\nRemove the 3 mounting screws and discon-\nnect machine monitor (2) from the mount.\na\nTake care not to drop the mounting\nscrews in the console.\n3)\nInsert or connect T-adapters for trouble-\nshooting to connectors CM01, CM02, and\nCM03 of the machine monitor.\n8\nPC800, 800LC-8",
+        "codes": [
+          "CE02",
+          "CE03",
+          "CM01",
+          "CM02",
+          "CM03",
+          "P31",
+          "PC800",
+          "UEN00914"
+        ]
+      },
+      {
+        "file": "p0386_img02.png",
+        "url": "/static/extracted_images/p0386_img02.png",
+        "page": 386,
+        "xref": 1772,
+        "caption": "2)\nInsert or connect T-adapters for trouble-\nshooting to connectors ENG, CE02, and\nCE03 of the engine controller (2).\na\nSince the connectors are secured with\nscrews, loosen those screws before dis-\nconnecting them.\na\nAfter returning the con...",
+        "context": "2.\nEngine controller\n1)\nRemove controller cover (1).\n2)\nInsert or connect T-adapters for trouble-\nshooting to connectors ENG, CE02, and\nCE03 of the engine controller (2).\na\nSince the connectors are secured with\nscrews, loosen those screws before dis-\nconnecting them.\na\nAfter returning the connectors, tighten\nthe screws to the specified torque.\n3\nScrew: 2.82 Nm {0.288 kgm}",
+        "codes": [
+          "CE02",
+          "CE03",
+          "CM01",
+          "CM02",
+          "CM03",
+          "P31",
+          "PC800",
+          "UEN00914"
+        ]
+      },
+      {
+        "file": "p0386_img03.png",
+        "url": "/static/extracted_images/p0386_img03.png",
+        "page": 386,
+        "xref": 1777,
+        "caption": "8\nPC800, 800LC-8",
+        "context": "2)\nInsert or connect T-adapters for trouble-\nshooting to connectors ENG, CE02, and\nCE03 of the engine controller (2).\na\nSince the connectors are secured with\nscrews, loosen those screws before dis-\nconnecting them.\na\nAfter returning the connectors, tighten\nthe screws to the specified torque.\n3\nScrew: 2.82 Nm {0.288 kgm}\n8\nPC800, 800LC-8",
+        "codes": [
+          "CE02",
+          "CE03",
+          "CM01",
+          "CM02",
+          "CM03",
+          "P31",
+          "PC800",
+          "UEN00914"
+        ]
+      }
+    ],
+    "387": [
+      {
+        "file": "p0387_img00.png",
+        "url": "/static/extracted_images/p0387_img00.png",
+        "page": 387,
+        "xref": 1786,
+        "caption": "3)\nInsert or connect T-adapters for trouble-\nshooting to connectors C01, C02, and C03\nof the pump controller (6).\na\nSince the connectors are secured with\nscrews, loosen those screws before dis-\nconnecting them.\na\nAfter returning the connect...",
+        "context": "3.\nPump controller\na\nThe pump controller is installed in the cover\nat the rear of the operator's seat.\n1)\nRemove 3 caps (4) and 3 mounting bolts.\na\nRemove the caps with a thin flat-head\nscrewdriver.\n2)\nRemove cover (5).\n3)\nInsert or connect T-adapters for trouble-\nshooting to connectors C01, C02, and C03\nof the pump controller (6).\na\nSince the connectors are secured with\nscrews, loosen those screws before dis-\nconnecting them.\na\nAfter returning the connectors, tighten\nthe screws to the specified torque.\n3\nScrew: 2.82 Nm {0.288 kgm}",
+        "codes": [
+          "C01",
+          "C02",
+          "C03",
+          "CK01",
+          "PC800",
+          "UEN00914"
+        ]
+      },
+      {
+        "file": "p0387_img01.png",
+        "url": "/static/extracted_images/p0387_img01.png",
+        "page": 387,
+        "xref": 1788,
+        "caption": "PC800, 800LC-8\n9",
+        "context": "3)\nInsert or connect T-adapters for trouble-\nshooting to connectors C01, C02, and C03\nof the pump controller (6).\na\nSince the connectors are secured with\nscrews, loosen those screws before dis-\nconnecting them.\na\nAfter returning the connectors, tighten\nthe screws to the specified torque.\n3\nScrew: 2.82 Nm {0.288 kgm}\nPC800, 800LC-8\n9",
+        "codes": [
+          "C01",
+          "C02",
+          "C03",
+          "CK01",
+          "PC800",
+          "UEN00914"
+        ]
+      },
+      {
+        "file": "p0387_img02.png",
+        "url": "/static/extracted_images/p0387_img02.png",
+        "page": 387,
+        "xref": 1790,
+        "caption": "PC800, 800LC-8\n9",
+        "context": "3)\nInsert or connect troubleshooting T-adapter\nin or to connector CK01 KOMTRAX of ter-\nminal (8).\na\nThe connectors are fixed with screw.\nLoosen the screws before disconnecting\nthem.\na\nWhen returning the connectors to their\noriginal positions, fix them by tightening\nthe screws with the specified torque.\n3\nScrew: 2.82 Nm {0.288 kgm}\na\nCable (9) is for the communication an-\ntenna.\na\nCable (10) is used for the GPS antenna.\nPC800, 800LC-8\n9",
+        "codes": [
+          "C01",
+          "C02",
+          "C03",
+          "CK01",
+          "PC800",
+          "UEN00914"
+        ]
+      }
+    ],
+    "395": [
+      {
+        "file": "p0395_img00.png",
+        "url": "/static/extracted_images/p0395_img00.png",
+        "page": 395,
+        "xref": 1821,
+        "caption": "H",
+        "context": "master pin\nBUSHING",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img01.png",
+        "url": "/static/extracted_images/p0395_img01.png",
+        "page": 395,
+        "xref": 1822,
+        "caption": "LINK HEIGHT",
+        "context": "master pin\nBUSHING",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img02.png",
+        "url": "/static/extracted_images/p0395_img02.png",
+        "page": 395,
+        "xref": 1823,
+        "caption": "Model",
+        "context": "UNDERCARRIAGE INSPECTION\n(Program form No.: ***************)\nModel",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img03.png",
+        "url": "/static/extracted_images/p0395_img03.png",
+        "page": 395,
+        "xref": 1824,
+        "caption": "master pin",
+        "context": "LINK PITCH\nmaster pin",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img04.png",
+        "url": "/static/extracted_images/p0395_img04.png",
+        "page": 395,
+        "xref": 1825,
+        "caption": "master pin",
+        "context": "LINK PITCH\nmaster pin",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img05.png",
+        "url": "/static/extracted_images/p0395_img05.png",
+        "page": 395,
+        "xref": 1826,
+        "caption": "M",
+        "context": "LINK PITCH\nmaster pin",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img06.png",
+        "url": "/static/extracted_images/p0395_img06.png",
+        "page": 395,
+        "xref": 1827,
+        "caption": "M",
+        "context": "LINK PITCH\nLINK HEIGHT",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img07.png",
+        "url": "/static/extracted_images/p0395_img07.png",
+        "page": 395,
+        "xref": 1828,
+        "caption": "LINK HEIGHT",
+        "context": "Working condition\nLINK HEIGHT",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img08.png",
+        "url": "/static/extracted_images/p0395_img08.png",
+        "page": 395,
+        "xref": 1829,
+        "caption": "LINK HEIGHT",
+        "context": "Working condition\nLINK HEIGHT",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img09.png",
+        "url": "/static/extracted_images/p0395_img09.png",
+        "page": 395,
+        "xref": 1830,
+        "caption": "LINK HEIGHT",
+        "context": "Working condition\nLINK HEIGHT",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img10.png",
+        "url": "/static/extracted_images/p0395_img10.png",
+        "page": 395,
+        "xref": 1831,
+        "caption": "LINK HEIGHT",
+        "context": "Working condition\nLINK HEIGHT",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img11.png",
+        "url": "/static/extracted_images/p0395_img11.png",
+        "page": 395,
+        "xref": 1832,
+        "caption": "Rear",
+        "context": "IDLER\nTRACK ROLLER",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img12.png",
+        "url": "/static/extracted_images/p0395_img12.png",
+        "page": 395,
+        "xref": 1833,
+        "caption": "D=2(h1- h2)",
+        "context": "TRACK ROLLER\nD=2(h1- h2)",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img13.png",
+        "url": "/static/extracted_images/p0395_img13.png",
+        "page": 395,
+        "xref": 1834,
+        "caption": "D=2(h1- h2)",
+        "context": "TRACK ROLLER\nD=2(h1- h2)",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img14.png",
+        "url": "/static/extracted_images/p0395_img14.png",
+        "page": 395,
+        "xref": 1835,
+        "caption": "H",
+        "context": "",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img15.png",
+        "url": "/static/extracted_images/p0395_img15.png",
+        "page": 395,
+        "xref": 1836,
+        "caption": "H",
+        "context": "",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img16.png",
+        "url": "/static/extracted_images/p0395_img16.png",
+        "page": 395,
+        "xref": 1837,
+        "caption": "H is the smallest\nof h1, h2, h3",
+        "context": "",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img17.png",
+        "url": "/static/extracted_images/p0395_img17.png",
+        "page": 395,
+        "xref": 1838,
+        "caption": "RH",
+        "context": "",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img18.png",
+        "url": "/static/extracted_images/p0395_img18.png",
+        "page": 395,
+        "xref": 1839,
+        "caption": "H",
+        "context": "",
+        "codes": [
+          "PC800"
+        ]
+      },
+      {
+        "file": "p0395_img19.png",
+        "url": "/static/extracted_images/p0395_img19.png",
+        "page": 395,
+        "xref": 1840,
+        "caption": "RH",
+        "context": "",
+        "codes": [
+          "PC800"
+        ]
+      }
+    ],
+    "787": [
+      {
+        "file": "p0787_img00.png",
+        "url": "/static/extracted_images/p0787_img00.png",
+        "page": 787,
+        "xref": 3244,
+        "caption": "3\nPC800,800LC-8\nUEN00393-00",
+        "context": "Electrical circuit diagram (1/5)\n3\nPC800,800LC-8\nUEN00393-00",
+        "codes": [
+          "PC800",
+          "UEN00393"
+        ]
+      }
+    ],
+    "789": [
+      {
+        "file": "p0789_img00.png",
+        "url": "/static/extracted_images/p0789_img00.png",
+        "page": 789,
+        "xref": 3249,
+        "caption": "5\nPC800,800LC-8\nUEN00393-00",
+        "context": "Electrical circuit diagram (2/5)\n5\nPC800,800LC-8\nUEN00393-00",
+        "codes": [
+          "PC800",
+          "UEN00393"
+        ]
+      }
+    ],
+    "791": [
+      {
+        "file": "p0791_img00.png",
+        "url": "/static/extracted_images/p0791_img00.png",
+        "page": 791,
+        "xref": 3254,
+        "caption": "7\nPC800,800LC-8\nUEN00393-00",
+        "context": "Electrical circuit diagram (3/5)\n7\nPC800,800LC-8\nUEN00393-00",
+        "codes": [
+          "PC800",
+          "UEN00393"
+        ]
+      }
+    ],
+    "793": [
+      {
+        "file": "p0793_img00.png",
+        "url": "/static/extracted_images/p0793_img00.png",
+        "page": 793,
+        "xref": 3259,
+        "caption": "9\nPC800,800LC-8\nUEN00393-00",
+        "context": "Electrical circuit diagram (4/5)\n9\nPC800,800LC-8\nUEN00393-00",
+        "codes": [
+          "PC800",
+          "UEN00393"
+        ]
+      }
+    ],
+    "795": [
+      {
+        "file": "p0795_img00.png",
+        "url": "/static/extracted_images/p0795_img00.png",
+        "page": 795,
+        "xref": 3264,
+        "caption": "11\nPC800,800LC-8\nUEN00393-00",
+        "context": "Electrical circuit diagram (5/5)\n11\nPC800,800LC-8\nUEN00393-00",
+        "codes": [
+          "PC800",
+          "UEN00393"
+        ]
+      }
+    ]
+  }
+}

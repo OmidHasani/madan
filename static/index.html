@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#667eea">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>دستیار هوشمند عیب‌یابی</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --secondary: #8b5cf6;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --dark: #1f2937;
+            --light: #f9fafb;
+            --border: #e5e7eb;
+            --safe-top: env(safe-area-inset-top, 0px);
+            --safe-bottom: env(safe-area-inset-bottom, 0px);
+            --safe-left: env(safe-area-inset-left, 0px);
+            --safe-right: env(safe-area-inset-right, 0px);
+            --touch-min: 44px;
+        }
+
+        html {
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            min-height: 100dvh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 12px;
+            padding-left: max(12px, var(--safe-left));
+            padding-right: max(12px, var(--safe-right));
+            padding-top: max(12px, var(--safe-top));
+            padding-bottom: max(12px, var(--safe-bottom));
+        }
+
+        .container {
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.25);
+            width: 100%;
+            max-width: 1400px;
+            height: 92vh;
+            height: 92dvh;
+            min-height: 320px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: clamp(16px, 4vw, 30px) clamp(16px, 4vw, 40px);
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            flex-shrink: 0;
+        }
+
+        .header h1 {
+            font-size: clamp(1.25rem, 5vw, 32px);
+            font-weight: 700;
+            margin-bottom: 6px;
+            letter-spacing: -0.5px;
+            line-height: 1.3;
+        }
+
+        .header p {
+            font-size: clamp(0.8125rem, 2.5vw, 15px);
+            opacity: 0.95;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        .chat-area {
+            flex: 1;
+            overflow-y: auto;
+            overflow-x: hidden;
+            -webkit-overflow-scrolling: touch;
+            padding: clamp(12px, 3vw, 30px) clamp(16px, 4vw, 40px);
+            padding-bottom: max(clamp(12px, 3vw, 30px), var(--safe-bottom));
+            background: linear-gradient(to bottom, #f8fafc 0%, #f1f5f9 100%);
+            min-height: 0;
+        }
+
+        .chat-area::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .chat-area::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+
+        .chat-area::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+
+        .chat-area::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        .message {
+            margin-bottom: 24px;
+            display: flex;
+            gap: 16px;
+            animation: fadeIn 0.4s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(15px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message.user {
+            flex-direction: row-reverse;
+        }
+
+        .message-avatar {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            flex-shrink: 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .message.user .message-avatar {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .message.assistant .message-avatar {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .message-content {
+            max-width: 75%;
+            background: white;
+            padding: clamp(14px, 3vw, 20px) clamp(16px, 3vw, 24px);
+            border-radius: 18px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            line-height: 1.8;
+            font-size: clamp(0.875rem, 2vw, 15px);
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .message.user .message-content {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: 500;
+        }
+
+        /* Error Card Styling */
+        .error-header {
+            background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+            border: 2px solid var(--danger);
+            border-radius: 14px;
+            padding: 20px;
+            margin: 16px 0;
+        }
+
+        .error-header h2 {
+            margin: 0 0 12px 0;
+            border: none;
+            padding: 0;
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--danger);
+        }
+
+        .error-meta {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .code-badge, .system-badge {
+            background: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--dark);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Info Boxes */
+        .info-box {
+            border-radius: 12px;
+            padding: 18px 20px;
+            margin: 14px 0;
+            border-right: 5px solid;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+
+        .info-box h3 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .info-box.problem {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            border-color: var(--primary);
+        }
+
+        .info-box.controller {
+            background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+            border-color: var(--secondary);
+        }
+
+        .info-box.symptom {
+            background: linear-gradient(135deg, #fed7aa 0%, #fdba74 100%);
+            border-color: var(--warning);
+        }
+
+        /* Causes Section */
+        .causes-section {
+            margin: 20px 0;
+        }
+
+        .causes-section > h3 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--primary);
+        }
+
+        .cause-card {
+            background: white;
+            border: 2px solid var(--border);
+            border-radius: 14px;
+            padding: 18px 22px;
+            margin: 14px 0;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+
+        .measurement-lines, .standard-values {
+            margin: 12px 0;
+            padding-right: 16px;
+        }
+
+        .measurement-line, .value-line {
+            margin: 8px 0;
+            padding: 10px 14px;
+            background: #f8fafc;
+            border-right: 3px solid var(--primary);
+            border-radius: 8px;
+            font-size: 14.5px;
+            line-height: 1.7;
+            font-weight: 500;
+            color: var(--dark);
+        }
+
+        .measurement-line:hover, .value-line:hover {
+            background: #f1f5f9;
+            transform: translateX(-2px);
+            transition: all 0.2s;
+        }
+
+        .cause-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+            border-color: var(--primary);
+        }
+
+        .cause-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .cause-detail {
+            line-height: 1.8;
+        }
+
+        .cause-detail strong {
+            display: block;
+            color: var(--dark);
+            margin: 12px 0 6px 0;
+            font-size: 15px;
+        }
+
+        .input-area {
+            background: white;
+            padding: clamp(12px, 3vw, 24px) clamp(16px, 4vw, 40px);
+            padding-bottom: max(clamp(12px, 3vw, 24px), var(--safe-bottom));
+            border-top: 2px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.05);
+            flex-shrink: 0;
+        }
+
+        .input-row {
+            display: flex;
+            gap: clamp(10px, 2vw, 16px);
+            align-items: flex-end;
+        }
+
+        .search-toggle {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: #f8fafc;
+            border-radius: 12px;
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.3s;
+            border: 2px solid var(--border);
+        }
+
+        .search-toggle:hover {
+            background: #f1f5f9;
+            border-color: var(--primary);
+        }
+
+        .search-toggle.active {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            border-color: var(--primary);
+        }
+
+        .search-toggle input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            accent-color: var(--primary);
+        }
+
+        .search-toggle label {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--dark);
+            cursor: pointer;
+            margin: 0;
+        }
+
+        .input-box {
+            flex: 1;
+            min-width: 0;
+            border: 2px solid var(--border);
+            border-radius: 16px;
+            padding: 14px 20px;
+            min-height: var(--touch-min);
+            font-size: 16px;
+            font-family: 'Vazirmatn', sans-serif;
+            resize: none;
+            outline: none;
+            transition: all 0.3s;
+            font-weight: 500;
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        .input-box:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+        }
+
+        .input-box::placeholder {
+            color: #94a3b8;
+        }
+
+        .send-button {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            border: none;
+            width: clamp(48px, 12vw, 56px);
+            height: clamp(48px, 12vw, 56px);
+            min-width: 48px;
+            min-height: 48px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: clamp(1.125rem, 4vw, 22px);
+            transition: all 0.3s;
+            flex-shrink: 0;
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .send-button:hover:not(:disabled) {
+            transform: scale(1.1) rotate(5deg);
+            box-shadow: 0 8px 28px rgba(37, 99, 235, 0.5);
+        }
+
+        .send-button:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading {
+            display: flex;
+            gap: 6px;
+            padding: 12px;
+        }
+
+        .loading-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--primary);
+            animation: bounce 1.4s infinite ease-in-out both;
+        }
+
+        .loading-dot:nth-child(1) {
+            animation-delay: -0.32s;
+        }
+
+        .loading-dot:nth-child(2) {
+            animation-delay: -0.16s;
+        }
+
+        @keyframes bounce {
+            0%, 80%, 100% {
+                transform: scale(0);
+            }
+            40% {
+                transform: scale(1);
+            }
+        }
+
+        .welcome-message {
+            text-align: center;
+            padding: clamp(30px, 8vw, 60px) clamp(16px, 4vw, 30px);
+            color: #64748b;
+        }
+
+        .welcome-message h2 {
+            font-size: clamp(1.25rem, 5vw, 28px);
+            margin-bottom: 12px;
+            color: var(--dark);
+            font-weight: 700;
+        }
+
+        .welcome-message p {
+            font-size: clamp(0.875rem, 2.5vw, 16px);
+            line-height: 1.8;
+            font-weight: 500;
+        }
+
+        /* شیک و ریسپانسیو برای تبلت و موبایل */
+        @media (max-width: 900px) {
+            body {
+                padding: 8px;
+            }
+            .container {
+                height: 100vh;
+                height: 100dvh;
+                border-radius: 16px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 0;
+                align-items: stretch;
+            }
+            .container {
+                height: 100vh;
+                height: 100dvh;
+                border-radius: 0;
+                box-shadow: none;
+            }
+            .header {
+                padding: 14px 16px;
+            }
+            .message {
+                gap: 10px;
+            }
+            .message-content {
+                max-width: 88%;
+                padding: 14px 16px;
+                font-size: 14px;
+            }
+            .message-avatar {
+                width: 36px;
+                height: 36px;
+                font-size: 18px;
+            }
+            .chat-area {
+                padding: 12px 10px;
+            }
+            .input-area {
+                padding: 10px 12px;
+                padding-bottom: max(10px, var(--safe-bottom));
+            }
+            .input-row {
+                gap: 8px;
+            }
+            .input-box {
+                padding: 12px 14px;
+                font-size: 16px;
+            }
+            .send-button {
+                width: 48px;
+                height: 48px;
+                min-width: 48px;
+                min-height: 48px;
+            }
+            .error-header, .info-box, .cause-card {
+                padding: 14px 16px;
+            }
+            .error-header h2 {
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .message-content {
+                max-width: 92%;
+                padding: 12px 14px;
+            }
+            .welcome-message {
+                padding: 24px 12px;
+            }
+        }
+
+        /* گوشی‌های خیلی کوچک و حالت عمودی */
+        @media (max-width: 380px) {
+            .header h1 {
+                font-size: 1.1rem;
+            }
+            .header p {
+                font-size: 0.75rem;
+            }
+        }
+
+        /* لنداسکیپ موبایل */
+        @media (max-height: 500px) and (orientation: landscape) {
+            .container {
+                height: 100vh;
+                height: 100dvh;
+            }
+            .header {
+                padding: 8px 16px;
+            }
+            .header p {
+                display: none;
+            }
+            .chat-area {
+                padding: 8px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔧 دستیار هوشمند عیب‌یابی</h1>
+            <p>سیستم پیشرفته تشخیص و رفع خطا با استفاده از هوش مصنوعی و مستندات تخصصی</p>
+        </div>
+
+        <div class="chat-area" id="chatArea">
+            <div class="welcome-message">
+                <h2>👋 سلام!</h2>
+                <p>من دستیار هوشمند <strong>پیشگامان ارتباط هشت بهشت</strong> هستم. می‌توانی هر سوالی داری اینجا بپرسی؛ در خدمتم.</p>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <div class="input-row">
+                <textarea 
+                    class="input-box" 
+                    id="userInput" 
+                    placeholder="کد خطا یا سوال خود را بنویسید... (مثال: CA1626)"
+                    rows="1"
+                    disabled
+                    onkeypress="handleKeyPress(event)"
+                ></textarea>
+                <button class="send-button" id="sendButton" onclick="sendMessage()" disabled>
+                    ➤
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let isInitialized = false;
+        let isProcessing = false;
+        let sessionId = null;  // برای نگهداری session ID
+        let conversationHistory = [];  // تاریخچه محلی مکالمه
+
+        window.addEventListener('load', checkStatus);
+
+        async function checkStatus() {
+            try {
+                const response = await fetch('/api/status');
+                const data = await response.json();
+                isInitialized = data.initialized;
+                updateUI();
+                if (!isInitialized) {
+                    setTimeout(checkStatus, 2000);
+                }
+            } catch (error) {
+                console.error('Error checking status:', error);
+                setTimeout(checkStatus, 2000);
+            }
+        }
+
+        function updateUI() {
+            const input = document.getElementById('userInput');
+            const sendButton = document.getElementById('sendButton');
+            input.disabled = !isInitialized;
+            sendButton.disabled = !isInitialized || isProcessing;
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                sendMessage();
+            }
+            // Auto-resize textarea
+            autoResizeTextarea(event.target);
+        }
+
+        function autoResizeTextarea(textarea) {
+            textarea.style.height = 'auto';
+            textarea.style.height = Math.min(textarea.scrollHeight, 200) + 'px';
+        }
+
+        // Auto-resize on input
+        document.addEventListener('DOMContentLoaded', function() {
+            const input = document.getElementById('userInput');
+            if (input) {
+                input.addEventListener('input', function() {
+                    autoResizeTextarea(this);
+                });
+            }
+        });
+
+        async function sendMessage() {
+            const input = document.getElementById('userInput');
+            const question = input.value.trim();
+            
+            if (!question || !isInitialized || isProcessing) return;
+            
+            // اضافه کردن پیام کاربر به UI و تاریخچه محلی
+            addMessage('user', question);
+            conversationHistory.push({role: 'user', content: question});
+            input.value = '';
+            
+            isProcessing = true;
+            updateUI();
+            const loadingId = addLoadingMessage();
+            
+            try {
+                const response = await fetch('/api/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        question: question,
+                        top_k: 30,  // افزایش برای دریافت context بیشتر
+                        use_reranking: true,
+                        language: 'persian',
+                        session_id: sessionId  // ارسال session_id
+                    })
+                });
+                
+                const data = await response.json();
+                
+                removeLoadingMessage(loadingId);
+                
+                if (response.ok) {
+                    // به‌روزرسانی session_id (برای اولین پیام)
+                    if (data.session_id && !sessionId) {
+                        sessionId = data.session_id;
+                        console.log('Session created:', sessionId);
+                    }
+                    
+                    // اضافه کردن پاسخ به تاریخچه محلی
+                    conversationHistory.push({role: 'assistant', content: data.answer});
+                    
+                    addMessage('assistant', data.answer, data);
+                    
+                    // نمایش اطلاعات Intent در کنسول (برای دیباگ)
+                    if (data.intent) {
+                        console.log('Detected intent:', data.intent);
+                    }
+                } else {
+                    throw new Error(data.detail || 'خطا در پردازش سوال');
+                }
+            } catch (error) {
+                console.error('Error sending message:', error);
+                removeLoadingMessage(loadingId);
+                addMessage('assistant', '❌ متأسفم، خطایی رخ داد. لطفاً دوباره تلاش کنید.');
+            } finally {
+                isProcessing = false;
+                updateUI();
+            }
+        }
+
+        function formatMarkdown(text) {
+            return text
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\n/g, '<br>');
+        }
+
+        function addMessage(role, content, data = null) {
+            const chatArea = document.getElementById('chatArea');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${role}`;
+            
+            const avatar = document.createElement('div');
+            avatar.className = 'message-avatar';
+            avatar.textContent = role === 'user' ? '👤' : '🤖';
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            
+            let html = content;
+            
+            if (!content.includes('<div class=')) {
+                html = formatMarkdown(content);
+            }
+
+            contentDiv.innerHTML = html;
+            
+            messageDiv.appendChild(avatar);
+            messageDiv.appendChild(contentDiv);
+            chatArea.appendChild(messageDiv);
+            
+            chatArea.scrollTop = chatArea.scrollHeight;
+        }
+
+        function addLoadingMessage() {
+            const chatArea = document.getElementById('chatArea');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message assistant';
+            messageDiv.id = 'loading-message';
+            
+            const avatar = document.createElement('div');
+            avatar.className = 'message-avatar';
+            avatar.textContent = '🤖';
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            contentDiv.innerHTML = `
+                <div class="loading">
+                    <div class="loading-dot"></div>
+                    <div class="loading-dot"></div>
+                    <div class="loading-dot"></div>
+                </div>
+            `;
+            
+            messageDiv.appendChild(avatar);
+            messageDiv.appendChild(contentDiv);
+            chatArea.appendChild(messageDiv);
+            chatArea.scrollTop = chatArea.scrollHeight;
+            
+            return 'loading-message';
+        }
+
+        function removeLoadingMessage(id) {
+            const loadingMsg = document.getElementById(id);
+            if (loadingMsg) {
+                loadingMsg.remove();
+            }
+        }
+
+    </script>
+</body>
+</html>
