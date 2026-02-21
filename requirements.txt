@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+chromadb
+pypdf2
+pydantic-settings
+pillow
+tavily-python
+beautifulsoup4
+requests
+python-dotenv
